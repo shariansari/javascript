@@ -1,0 +1,317 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar {
+    background-color: black;
+    color: white;
+    width: 12vw;
+    padding: 5vh;
+    height: 100vh;
+}
+
+.sidebar nav {
+
+    padding: 20px;
+}
+
+.sidebar nav li {
+    padding: 20px;
+    list-style: none;
+    font-size: 20px;
+}
+
+.sidebar nav li a {
+    text-decoration: none;
+    color: white;
+}
+
+.sidebar nav li:hover, .active {
+    background-color: white;
+}
+
+.sidebar nav li:hover a, .active a {
+    color: black !important;
+}
+
+.main {
+    /* background-color: yellow; */
+    width: 100vw;
+    margin: 10px;
+}
+
+.container {
+    display: flex;
+}
+
+.infocontainer {
+    display: flex;
+    margin: 144px auto;
+    /* background-color: rgb(228, 11, 120); */
+    height: 50vh;
+    width: 70vw;
+    justify-content: space-around;
+
+}
+
+.devpic img {
+    height: 55vh;
+}
+
+.devinfo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column
+}
+
+.hello {
+    font-size: 70px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.name {
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.about {
+    font-size: 30px;
+    font-family: cursive;
+}
+
+.button button {
+    margin: 20px;
+    padding: 8px;
+    border-radius: 50px;
+    color: white;
+    background-color: rgb(107, 33, 156);
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+#input1 {
+    padding: 5px;
+    margin: 5px;
+    width: 348%;
+    border: 1px solid blue;
+    border-radius: 9px;
+
+
+}
+
+#input2 {
+    padding: 5px;
+    margin: 5px;
+    width: 348%;
+    border: 1px solid blue;
+    border-radius: 9px;
+
+
+}
+
+#input3 {
+    padding: 5px;
+    margin: 5px;
+    width: 348%;
+    border: 1px solid blue;
+    border-radius: 9px;
+
+
+}
+
+#input4 {
+    padding: 5px;
+    margin: 5px;
+    width: 348%;
+    border: 1px solid blue;
+    border-radius: 9px;
+
+
+}
+
+#input5 {
+    padding: 5px;
+    margin: 5spx;
+    width: 348%;
+    border: 1px solid blue;
+    border-radius: 9px;
+
+
+}
+
+.box1 {
+
+    display: flex;
+    position: relative;
+    right: 19vh;
+    left: 40vh;
+    width: 50vw;
+    height: 100vh;
+    background-color: white;
+}
+
+#submit {
+
+    margin: 0px;
+    padding: 8px;
+    border-radius: 50px;
+    color: white;
+    background-color: rgb(107, 33, 156);
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+
+
+h2 {
+    text-align: center;
+}
+
+.image img {
+    height: 40vh;
+    position: absolute;
+    top: 0%;
+}
+
+.intro {
+    /* background-color:rgb(161, 9, 67); */
+    display: flex;
+    position: absolute;
+    height: 27vh;
+    top: 2.5vh;
+    
+}
+.intro span {
+    font-family: Permanent Marker;
+}
+
+.middle {
+    position: absolute;
+    top: 38vh;
+    right: 0%;
+    /* background-color: yellow; */
+    width: 178vh;
+    height: 30vh;
+    font-family: Permanent Marker;
+
+}
+
+h4 {
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-family: federo;
+}
+
+.last {
+
+    position: absolute;
+    top: 30vh;
+    right: 0%;
+    width: 178vh;
+    height: 30vh;
+    /* background-color: aqua */
+    font-family: Permanent Marker;
+
+
+}
+
+.footer {
+
+    position: absolute;
+    top: 100vh;
+    right: 0%;
+    width: 178vh;
+    height: 10vh;
+    /* background-color: rgb(128, 40, 230) */
+    font-family: Permanent Marker;
+}
+
+.devinfo p {
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.web {
+    /* background-color: red; */
+    width: 110vh;
+    height: 19vw;
+}
+
+.web h3 {
+    text-align: center;
+}
+
+.webimg {
+    /* background-color: blue; */
+    width: 70vh;
+
+    position: absolute;
+    top: 0;
+    right: 0%
+}
+
+.hcj {
+    /* background-color: rgb(223, 17, 17); */
+    width: 105vh;
+    height: 30vh;
+    position: absolute;
+    right: 0%;
+}
+
+.imghcj img {
+    height: 30vh;
+}
+
+.best {
+    /* background-color: aqua;
+    height: 28vh; */
+    width: 75%;
+    display: inline-block;
+}
+
+.imgbest {
+    position: absolute;
+    right: 0%;
+    bottom: .1vh;
+}
+
+.youtube img {
+    height: 30vh;
+    position: absolute;
+    top: 65vh;
+    left: 40vh;
+}
+
+.insta img {
+    height: 30vh;
+    position: absolute;
+    right: 10vh;
+    top: 66vh;
+}
+
+.fb img {
+    position: absolute;
+    height: 16vh;
+    top: 72vh;
+    right: 50vh;
+}
+
+.gmail img {
+    height: 20vh;
+    position: absolute;
+    top: 70vh;
+    right: 100vh;
+}
+
+.footer p {
+    font-family: Permanent Marker;
+}
+
+.middle-container {
+    display: flex;
+}

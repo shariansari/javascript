@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms</title>
+    <style>
+        body {
+            background-color:yellow;
+        }
+    </style>
+</head>
+
+<body>
+    <h3>REGESTRATION FORM</h3>
+    <form action="/" method="get">
+        <input type="text" placeholder="Enter your Name" id="s101" required><br><br>
+        <input type="password" placeholder="Password please"><br>
+        <h4>select your class</h4>
+        <label for="101">
+            <input type="radio" value="class V" name="class" id="101">class v
+        </label> <br>
+        <label for="102">
+            <input type="radio" value="class X" name="class" id="102">class x
+        </label> <br>
+        <h4>Chose your subject</h4>
+        <label for="id1">
+            <input type="checkbox" value="math" name="subject" id="id1">Maths
+        </label><br>
+        <label for="id2">
+            <input type="checkbox" value="science" name="subject" id="id1">Science
+        </label><br>
+        <label for="id3">
+            <input type="checkbox" value="hindi" name="subject" id="id3">Hindi
+        </label><br>
+        <label for="id4">
+            <input type="checkbox" value="computer" name="subject" id="id4">Computer
+        </label><br>
+        <h4>Give your feedback</h4>
+        <textarea name="feedback" id="id5" cols="30" rows="5"
+            placeholder="Give your valueable feedback it means a lot"></textarea><br>
+            <h4>Chose your city</h4>
+            <select name="city" id="id5">
+                <option value="delhi">Delhi</option>
+                <option value="bareily">Bareily</option>
+                <option value="lucknow">Lucknow</option>
+                <option value="sitapur">Sitapur</option>
+                <option value="moradabad">Moradabad</option>
+                <option value="lakhimpur">lakhimpur</option>
+                <option value="kanpur">Kanpur</option>
+            </select>
+            <br>
+            
+            <h4>Submit your form here</h4>
+            <input type="submit" value="submit" id="id6">
+
+
+            <div id="test">
+   ttttttttttttttttttttttttttttttttttttttttt
+            </div>
+
+
+
+
+    </form>
+    <script>
+        // ///                  focus   4,5   blur
+        // document.getElementById("s101").addEventListener("focus",abc)
+        // document.getElementById("s101").addEventListener("blur",def)
+
+
+        // function abc() {
+        //     document.getElementById("s101").style.backgroundColor="green"
+        // }
+        // function def() {
+        //     document.getElementById("s101").style.backgroundColor=""
+        // }
+        //      //                 or
+        // document.getElementById("s101").addEventListener("focus",() => {
+        //     document.getElementById("s101").style.backgroundColor="green"
+        // } );
+          
+        //              1 KEY DOWN  2KEYPRESS 3KEYUP
+
+        // document.getElementById("s101").addEventListener("keydown",() => {
+        //      document.getElementById("s101").style.backgroundColor="green"
+        // });
+
+
+        //                 5 INPUT
+        // ;
+        // document.getElementById("s101").addEventListener("input",(e) => {
+        //    let  x = e.target.value;
+        //      document.getElementById("test").innerHTML = x;
+        // })
+        //               6 CHANGE 
+        
+        // document.getElementById("s101").addEventListener("change",(e) => {
+        //    let  x = e.target.value;
+        //      document.getElementById("test").innerHTML = x;
+        // })
+        // ////             7SELECT
+        // document.getElementById("s101").addEventListener("select",(e) => {
+        //     let x = "you selected some value"
+        //     document.getElementById("test").innerHTML = x;
+        // })
+
+        //                  8 SUBMIT
+        // document.getElementById("id6").addEventListener("submit",ab)
+
+        // function ab(){
+        //      let a =prompt("you submitted your form")
+        //      console.log(a);
+        // }
+        
+        //                  9 INVALID
+
+        document.getElementById("s101").addEventListener("invalid",abc)
+        function abc() {
+            alert('fill the requider data')
+        }
+
+    </script>
+
+</body>
+
+</html>

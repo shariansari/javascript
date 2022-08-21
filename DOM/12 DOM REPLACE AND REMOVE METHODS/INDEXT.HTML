@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <UL id="list">
+        <LI>ORANGE</LI>
+        <LI>MANGO</LI>
+        <LI>BANANA</LI>
+        <LI>GRAPES</LI>
+        <LI>APPLE</LI>
+    </UL>
+    <script>
+        //     DOM REPLACE CHILD METHOD
+    //   let  newelement =   document.createElement("LI");
+    //   let  newtext = document.createTextNode("ANGOOR");
+    //      newelement.appendChild(newtext);
+    //   let target = document.getElementById("list");
+    //   let oldelement = target.children[3];
+    //   target.replaceChild(newelement,oldelement);
+
+    //       DOM REMOVE CHILD METHOD
+    let target = document.getElementById("list");
+    let removed = target.children[3]
+    target.removeChild(removed);
+
+       
+    </script>
+    
+</body>
+
+</html>

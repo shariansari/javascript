@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM TRAVERSAL</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+
+        }
+       .outer{
+        background-color: yellow;
+        height: 60vh;
+        border: 2px solid black;
+       }
+       .inner{
+        background-color: aqua;
+        height: 40vh;
+        margin: 40px;
+        border: 2px solid black;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+       }
+       .box1{
+       background-color: orange;
+       height: 20vh;
+       width:20vh;
+       margin: 10px;
+       border: 2px solid black;
+       
+
+
+       }
+       
+       .box12{
+       background-color: orange;
+       height: 20vh;
+       width:20vh;
+       margin: 10px;
+       border: 2px solid black;
+       }
+       
+    </style>
+</head>
+<body>
+    <div class="outer">
+        outer
+        <div class="inner">
+            
+            <div class="box1">A</div>
+            <div class="box1">B</div>
+            <div class="box12">C</div>
+            <div class="box1">D</div>
+            <div class="box1">E</div>   
+        </div>
+    </div>
+    <script>
+
+        //               DOM TRANSVERSE
+
+        // 1   PARRENT NODE
+    //    let a=  document.getElementsByClassName("inner")[0].parentNode;
+    //    console.log(a);
+
+    //    2  PARRENT ELEMENT
+    //     let a = document.getElementsByClassName("inner")[0].parentElement;
+    //    console.log(a);
+
+    //   3 CHILDREN
+        // let a= document.getElementsByClassName("inner")[0].children;
+        // console.log(a);
+
+     //  4 CHID NODES
+          
+        // let a= document.getElementsByClassName("inner")[0].childNodes;
+        // console.log(a);
+
+     //   5 FIRST CHID
+    //  let a= document.getElementsByClassName("inner")[0].firstChild;
+    //     console.log(a);
+
+    // 6 FIRST ELEMENT CHILD
+
+    // let a= document.getElementsByClassName("inner")[0].firstElementChild;
+    //      console.log(a);
+
+    //  // 7 LAST CHILD
+    //  let a= document.getElementsByClassName("inner")[0].lastChild;
+    //      console.log(a);
+
+    //   8 LAST ELEMENT CHILD
+
+    // let a= document.getElementsByClassName("inner")[0].lastElementChild;
+    //       console.log(a);
+
+    //  9 NEXT SIBLING
+
+    // let a= document.getElementsByClassName("box12")[0].nextSibling;
+    //       console.log(a);
+
+    // 10 NEXT ELEMENT SIBLING  
+    // let a= document.getElementsByClassName("box12")[0].nextElementSibling;
+    //       console.log(a);
+
+    // 11 PREVIOUS SIBLING
+      
+    // let a= document.getElementsByClassName("box12")[0].previousSibling;
+    //       console.log(a);
+
+  //  12 PREVIOUS ELEMENT SIBLING
+    
+  let a= document.getElementsByClassName("box12")[0].previousElementSibling;
+          console.log(a);
+
+
+
+    </script>
+    
+</body>
+</html>
